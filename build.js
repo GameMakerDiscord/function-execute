@@ -103,7 +103,7 @@ const main = () => {
         } else {
           output += 'switch(array_length_1d(_a)) {\n'
           for (let i = 0; i < MAX_ARGUMENT_COUNT; i++) {
-            const args = Array.apply(null, Array(i)).map((x, k) => `_a[?${k}]`)
+            const args = Array.apply(null, Array(i)).map((x, k) => `_a[${k}]`)
             output += `    case ${i}: ${data.returns ? 'return ' : ''}${name}(${args.join(',')})\n`
           }
           output += '}\n'
