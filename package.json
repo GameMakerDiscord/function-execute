@@ -1,0 +1,8 @@
+{
+  "name": "ext2-function-execute",
+  "version": "1.0.0",
+  "description": "Call functions via a string name, similar to script_execute",
+  "repository": "https://github.com/GameMakerDiscord/ext2-function-execute.git",
+  "author": "Andrew Bennett <andrewbgm@gmail.com>",
+  "license": "MIT"
+}
